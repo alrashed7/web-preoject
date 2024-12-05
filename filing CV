@@ -1,10 +1,32 @@
 <html>
 <head>
     <title>Filing out the CV </title>
+<style>
+
+h2 {
+    font-family: sans-serif;
+}
+label:before{
+    content: "*";color: red;
+}
+input:focus{
+    background-color: red;
+}
+input:invalid{
+    background-color: red;
+}
+
+#bu:hover{
+    font-weight: bold;
+}
+
+
+
+</style>
 </head>
 <body>
 <header>
-    <h2>Apply now for your your dream job!</h2>
+    <h2>Apply now for your dream job!</h2>
 </header>
     <fieldset> 
 <legend>Contact information </legend>
@@ -69,9 +91,11 @@ Age
 <textarea placeholder="Please Enter Your information" rows="10" cols="50"></textarea>
 </label>
 </fieldset>
-
-
-
+<p>
+<label for="bu">
+    <input type="submit" id="bu">
+</label>
+</p>
 
 
 </label>
