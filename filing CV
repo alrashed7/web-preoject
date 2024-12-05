@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Filing out the CV </title>
+</head>
+<body>
+<header>
+    <h2>Apply now for your your dream job!</h2>
+</header>
+    <fieldset> 
+<legend>Contact information </legend>
+<p>
+    <label for="n">
+Name:
+<input id="n" type="text">
+</label>
+</p>
+<p>
+    <label for="n">
+Phone
+<input id="p" name="ph" type="phone">
+</label>
+</p>
+<p>
+    <label for="e">
+Email
+<input id="e" name="email" type="email">
+</label>
+</p>
+<p>
+    <label for="ag">
+Age
+<input id="ag" name="Age" type="number" min="18" max="25">
+</label>
+</p>
+    </fieldset>
+    <fieldset>
+        <legend>Gender </legend>
+    <p>
+<label>
+    
+    <input name="gender" type="radio" value="male" required> male
+</label>
+</p>
+
+<p>
+<label>
+<input name="gender" type="radio" value="female" required> Female
+</label>
+</p>
+
+</fieldset>
+<fieldset>
+    <legend>Education </legend>
+    <p>
+    <label for="s">
+    Education
+    <select id="s" name="select" required>
+        <opption value="">select your certificate </opption>
+     <option value="High School">High School</option>
+     <option value="college">college</option>
+    </fieldset>
+    </select>
+</p>
+    <fieldset>
+<legend>Experience and Skills </legend>
+
+<label for="es">
+
+<textarea placeholder="Please Enter Your information" rows="10" cols="50"></textarea>
+</label>
+</fieldset>
+
+
+
+
+
+</label>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
